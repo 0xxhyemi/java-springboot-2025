@@ -3,14 +3,13 @@
 
 ## 1일차 (04-01)
 
-
 ## 웹 개요
 - 구성 3단계
     - 브라우저(클라이언트/프론트엔드) - 사용자 **요청**을 하고, 결과를 돌려받는 파트
     - 서버(백엔드) - 사용자의 요청을 받아서 DB에서 데이터를 가져와 처리하고, 사용자에게 **응답**하는 파트
     - 데이터베이스 - 가장 중요한 데이터가 저장되어 있는 파트
 - 웹 개념
-    - Request(요청)에 대한 Response(응답)
+    - 사용자 Request(요청)에 대한 Response(응답)
     
 ### Spring Boot 개요
 - Java - 컴퓨팅 세상 모든곳에서 사용될 수 있는 언어가 되고자 개발됨
@@ -22,17 +21,20 @@
         - 무지하게 복잡!
     4. JSP(Java Server Page) - 자바코드와 웹페이지코드를 분리하여 개발할 수 있는 Java 웹기술
         - 확장자가 .jsp / 스파게티 코드
-    5. Spring - Java 웹개발에 전성기
+    5. Spring - Java 웹개발에 전성기. 웹페이지와 자바영역 분리
+        - 대한민국 전자정부 웹프레임워크 기반
         - 설정이 복잡
     6. Spring Boot - Spring의 단점을 최소화. 설정을 간결화
 
 - Spring Boot
+    - https://spring.io/projects/spring-boot
     - Spring 기술을 그대로 사용(마이그레이션이 간단)
     - JPA 기술을 사용하면 ERD나 DB설계를 하지 않고도 손쉽게 DB를 생성. DB연동도 쉬움
     - Tomcat Webserver가 내장!
     - 서포트하는 기능 다수 존재(개발을 쉽게 도와줌)
     - 테스트용 JUnit, 로그용 Log4J2모두 포함(설치 필요없음)
     - 프론트엔드를 다양하게 지원. JSP, **Tymeleaf**, Mustache 등
+    - React 등의 자바스크립트 프론트엔드와 연계해서 풀스택 개발 가능
     - MVC(Model View Controller)로 영역을 분리. 각 부분별로 따로 개발
 
 - MVC 
@@ -86,9 +88,20 @@
     - SPring Initailizr: Create a Maven Project
     - Specify Spring Boot version: 3.3.10 선택
     - Specify project language: Java
-    - Input Group Id: 본인아이디 입력 / com.hhm
+    - Input Group Id:  com.hhm (각자 설정할 것)
     - Input Artifact Id: spring01
-    - Specify packaging type: Jar
+    - Specify packaging type: Jar(Java archive, 압축파일)
+    - Specify Java version: 17
+    - Choose dependencies: Selected 0 dependencies
+    - 저장위치 선택
+    - **새 창 열기** - Spring Boot 프로젝트가 루트폴더가 된 개발환경
+
+- 실행방법
+    - 코드 작성
+    - Spring Boot DashBoard > Apps > 앱 또는 ctrl + F5
+
+- 기초문법
+    - [JAVA기초문법](./JAVA_BASIC.md)
 
 ## 2일차
 
