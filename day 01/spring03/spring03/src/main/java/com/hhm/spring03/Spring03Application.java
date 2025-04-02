@@ -1,4 +1,4 @@
-package com.hhm.spring03;
+package com.hugo83.spring03;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -20,10 +20,9 @@ public class Spring03Application {
 		System.out.println("1~10 합은 " + sum);
 
 		// 배열, 컬렉션을 반복 첫번째 방법
-		for(int, i=0; i < 5; ++) {
-			System.out.print(names[i] + ">");
-		}
-		System.out.println();
+		for (int i=0; i<5; i++) {
+			System.out.println(names[i]);
+		}		
 
 		// 두번째 방법
 		for (String name : names) {
