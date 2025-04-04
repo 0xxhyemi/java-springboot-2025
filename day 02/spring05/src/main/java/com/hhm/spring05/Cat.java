@@ -1,4 +1,4 @@
-package com.hugo83.spring05;
+package com.hhm.spring05;
 
 public class Cat extends Animal {
     void cry() {

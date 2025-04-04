@@ -1,4 +1,4 @@
-package com.hugo83.spring05;
+package com.hhm.spring05;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -16,6 +16,10 @@ public class Spring05Application {
 
 		Cat kitty = new Cat();
 		kitty.setName("키티");
-		kitty.cry();		
+		kitty.cry();	
+		
+		Dog chooDog = new Dog();
+		choonsam.setName("키티");
+		choonsam.cry();
 	}
 }

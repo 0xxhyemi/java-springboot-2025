@@ -1,4 +1,4 @@
-package com.hugo83.spring02;
+package com.hhm.spring02;
 
 import java.util.Arrays;
 import java.util.Collections;

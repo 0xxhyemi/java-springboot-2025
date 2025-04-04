@@ -1,4 +1,4 @@
-package com.hugo83.spring01;
+package com.hhm.spring01;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

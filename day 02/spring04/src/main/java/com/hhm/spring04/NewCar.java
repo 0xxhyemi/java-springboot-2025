@@ -1,34 +1,41 @@
 package com.hugo83.spring04;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+public class NewCar {
+    // 멤버변수/속성
+    String model_name;
+    String company = "현대자동차";
+    String color = "white";
+    int release_year;
+    String fuel_type = "휘발유";
+    
+    // 생성자(클래스명과 일치)
+    NewCar() {
+        model_name = "아반테";
+        this.company = "현대자동차";
+        System.out.println("기본생성자 실행!");
+    }
+    // 메서드오버로딩
+    NewCar(String model_name, String company, int release_year) {
+        this.model_name = model_name;
+        this.company = company;
+        this.release_year = release_year;
+        System.out.println("인자 초기화생성자 실행!");
+    }
 
-@SpringBootApplication
-public class Spring04Application {
-
-	public static void main(String[] args) {
-		SpringApplication.run(Spring04Application.class, args);
-
-		// 클래스 사용
-		NewCar peugeot = new NewCar("206cc", "peugeot", 2016);		
-
-		NewCar avante = new NewCar();
-		avante.company = "현대자동차";
-		avante.color = "blue";
-		avante.fuel_type = "휘발유";
-		avante.model_name = "avante s16";
-		avante.release_year = 2022;
-
-		peugeot.doAccelerate();
-		avante.doAccelerate();
-		peugeot.turnLeft();
-		avante.turnRight();
-		peugeot.doBreak();
-		avante.doBreak();
-		avante.changeGear();
-		avante.doAccelerate();
-
-		System.out.println(peugeot);
-		System.out.println(avante);
-	}
+    // 멤버메서드
+    public void doAccelerate() { // 가속
+        System.out.println(this.model_name + "가속!!");
+    } 
+    public void doBreak() { // 정지
+        System.out.println(this.model_name + "정지!!");
+    }
+    public void changeGear() { // 기어변속
+        System.out.println(this.model_name + "기어변속!!");
+    } 
+    public void turnLeft() { // 좌회전
+        System.out.println(this.model_name + "좌회전!");
+    } 
+    public void turnRight() { // 우회전
+        System.out.println(this.model_name + "우회전!!");
+    } 
 }
