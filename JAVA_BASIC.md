@@ -7,7 +7,7 @@
     // 한줄 주석.
     /* 여러줄 
        주석. */
-    package com.hhm.spring01; // 자신 프로젝트의 패키지명(폴더)
+    package com.hugo83.spring01; // 자신 프로젝트의 패키지명(폴더)
 
     import org.springframework.boot.SpringApplication;  // 라이브러리, 클래스 가져오기
     import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -90,7 +90,7 @@
     - 논리연산 : &&, ||, !
     - 관계연산 : ==, >, >=, <, <=, !=
 
-    - [Java문법실습](./day01/spring01/src/main/java/com/hhm/spring01/Spring01Application.java)
+    - [Java문법실습](./day01/spring01/src/main/java/com/hugo83/spring01/Spring01Application.java)
 
 #### 흐름제어
 - 조건(분기)문 : if문, switch문
@@ -138,7 +138,7 @@
         result = "로그인실패";
     }
     ``` 
-    - [Java문법실습](./day01/spring02/src/main/java/com/hhm/spring02/Spring02Application.java)
+    - [Java문법실습](./day01/spring02/src/main/java/com/hugo83/spring02/Spring02Application.java)
 
 - 반복문 : for문, while문, do-while문
 
@@ -156,7 +156,7 @@
     }
     ```
 
-    - [Java문법실습](./day01/spring03/src/main/java/com/hhm/spring03/Spring03Application.java)
+    - [Java문법실습](./day01/spring03/src/main/java/com/hugo83/spring03/Spring03Application.java)
 
     - while문 - 조건식이 참인동안 계속 반복
 
@@ -175,7 +175,7 @@
 
     ```
 
-    - [Java문법실습](./day02/spring01/src/main/java/com/hhm/spring01/Spring01Application.java)
+    - [Java문법실습](./day02/spring01/src/main/java/com/hugo83/spring01/Spring01Application.java)
 
 - 반복제어 키워드 : break, continue
     - for문, while문 내에서 사용
@@ -210,7 +210,7 @@
 - Java 컬렉션 프레임워크 - 배열을 좀더 기능적으로 강화한 객체
     - **List**, Stack, Vector, ArrayList, HashSet, HashMap(파이썬 딕셔너리), HashTable
 
-- [Java문법실습](./day02/spring02/src/main/java/com/hhm/spring02/Spring02Application.java)
+- [Java문법실습](./day02/spring02/src/main/java/com/hugo83/spring02/Spring02Application.java)
 
 #### 메서드
 - 함수와 동일. 객체지향언어에서는 함수를 메서드로 사용
@@ -236,7 +236,7 @@
     - 프로그래밍 상에 모든 곳에서 null이라고 사용
     - 파이썬만 None으로 사용
 
-- [Java문법실습](./day02/spring03/src/main/java/com/hhm/spring03/Spring03Application.java)
+- [Java문법실습](./day02/spring03/src/main/java/com/hugo83/spring03/Spring03Application.java)
 
 #### 객체/클래스
 - 객체 개요
@@ -295,7 +295,7 @@
     tesla.turnRight(); //우회전
     // ...
     ```
-- [Java문법실습](./day02/spring04/src/main/java/com/hhm/spring04/Spring04Application.java)
+- [Java문법실습](./day02/spring04/src/main/java/com/hugo83/spring04/Spring04Application.java)
 
 #### 상속
 - 개요
@@ -315,7 +315,7 @@
         // 부모 메서드를 오버라이딩
     }
     ```
-- [Java문법실습](./day02/spring05/src/main/java/com/hhm/spring05/Spring05Application.java)
+- [Java문법실습](./day02/spring05/src/main/java/com/hugo83/spring05/Spring05Application.java)
 
 #### 접근제어자
 - 클래스, 변수, 메서드 등에 외부에서 어떤방식을 접근할건지를 정의하는 키워드
@@ -342,7 +342,7 @@
         - set + 멤버변수명(입력파라미터) 형태로 생성
         - 내부로직으로 입력값 필터링
 
-- [Java문법실습](./day02/spring05/src/main/java/com/hhm/spring05/Spring05Application.java)
+- [Java문법실습](./day02/spring05/src/main/java/com/hugo83/spring05/Spring05Application.java)
 
 #### Object 클래스
 - 모든 클래스의 조상 클래스. extends를 사용하지 않아도 항상 상속됨
@@ -378,7 +378,7 @@
 
 - 스프링의 의존성 주입(Dependency Injection)의 핵심
 
-- [Java문법실습](./day03/spring01/src/main/java/com/hhm/spring01/Spring01Application.java)
+- [Java문법실습](./day03/spring01/src/main/java/com/hugo83/spring01/Spring01Application.java)
 
 #### 예외처리
 - 프로그램의 비정상적 종료를 막기위한 보호막
@@ -416,7 +416,7 @@
     }
     ```
 
-- [Java문법실습](./day03/spring02/src/main/java/com/hhm/spring02/Spring02Application.java)
+- [Java문법실습](./day03/spring02/src/main/java/com/hugo83/spring02/Spring02Application.java)
 
 #### 객체지향 특징
 - 추가로 학습할 내용
@@ -427,14 +427,14 @@
 - String
     - 컴퓨터 -> 숫자, 사람 -> 문자    
     
-- [Java문법실습](./day03/spring04/src/main/java/com/hhm/spring04/Spring04Application.java)
+- [Java문법실습](./day03/spring04/src/main/java/com/hugo83/spring04/Spring04Application.java)
 
 #### 시간타입 핸들링
 - [java.time](https://docs.oracle.com/en/java/javase/24/docs/api/java.base/java/time/package-summary.html)
 - time
     - 날짜와 시간을 처리할 때 사용
 
-- [Java문법실습](./day04/spring01/src/main/java/com/hhm/spring01/Spring01Application.java)
+- [Java문법실습](./day04/spring01/src/main/java/com/hugo83/spring01/Spring01Application.java)
 
 
 #### 제네릭
@@ -462,7 +462,7 @@ public static void main(String[] args) {
 - T는 가변타입. String, int, double 다 지정가능
 - T, P, K, TP 등 가변타입의 명칭은 편하게 지정
 
-- [Java문법실습](./day04/spring02/src/main/java/com/hhm/spring02/Spring02Application.java)
+- [Java문법실습](./day04/spring02/src/main/java/com/hugo83/spring02/Spring02Application.java)
 
 #### 원시타입의 클래스
 - int, double, float, byte 등 소문자 타입은 C와 같은 예전언어를 배운사람의 편의성을 위해서 추가한 기능
@@ -503,7 +503,7 @@ public static void main(String[] args) {
 - 맵 인터페이스
     - HashMap
 
-- [Java문법실습](./day04/spring03/src/main/java/com/hhm/spring03/Spring03Application.java)
+- [Java문법실습](./day04/spring03/src/main/java/com/hugo83/spring03/Spring03Application.java)
 
 #### 람다식
 - 함수형 프로그래밍 언어의 특징을 객체지향 언어에 녹여넣은 것
@@ -540,7 +540,7 @@ public static void main(String[] args) {
 
 - 스트림API가 쉽지는 않지만, 코딩량을 현저하게 줄일 수 있음.
 
-- [Java문법실습](./day04/spring04/src/main/java/com/hhm/spring04/Spring04Application.java)
+- [Java문법실습](./day04/spring04/src/main/java/com/hugo83/spring04/Spring04Application.java)
 
 
 #### StringBuilder
@@ -556,7 +556,7 @@ public static void main(String[] args) {
     // insert(), delete()
     ```
 
-- [JAVA문법실습](./day05/spring01/src/main/java/com/hhm/spring01/Spring01Application.java)
+- [JAVA문법실습](./day05/spring01/src/main/java/com/hugo83/spring01/Spring01Application.java)
 
 #### GC(Garbage Collection)
 - C등 절차적 언어에서는 객체를 생성해서 메모릴 사용하면, 개발자가 직접 해제해줘야 함
@@ -569,7 +569,7 @@ public static void main(String[] args) {
 - 입출력 예외가 발생할 수 있기때문에 클래스나 메서드에 `throws IOException`을 추가해야 함
 - 파일읽기에 `FileInputStream`, `BufferedReader` 클래스 사용
 
-- [JAVA문법실습](./day05/spring02/src/main/java/com/hhm/spring02/Spring02Application.java)
+- [JAVA문법실습](./day05/spring02/src/main/java/com/hugo83/spring02/Spring02Application.java)
 
 
 #### 어노테이션
